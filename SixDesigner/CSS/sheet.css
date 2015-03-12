@@ -1,0 +1,18 @@
+
+div#main{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	color: gray;
+}
+
+h1{
+	text-align:center; 
+}
+
+p{
+	text-indent: 2em;
+	font-size: 18px;
+	font-family: "黑体";	
+}
