@@ -7,6 +7,10 @@ div#main{
 	color: gray;
 }
 div#center{
+	
+}
+
+div#404{
 	position: absolute;
 	width:700px;
 	height:500px;
