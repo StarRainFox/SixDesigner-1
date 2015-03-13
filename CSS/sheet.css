@@ -6,6 +6,10 @@ div#main{
 	margin-bottom: 0px;
 	color: gray;
 }
+div#center{
+	text-align: auto;
+}
+
 div#image{
 	text-align: center;
 }
