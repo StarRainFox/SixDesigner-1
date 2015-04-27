@@ -1,31 +1,61 @@
-﻿<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-        <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
 
-		<title>Character</title>
-		<link rel="stylesheet" type="text/css" href="CSS/sheet.css">
-	</head>
-	<body>
-		
-		<div id="main">
-			<div id="center">
-				<h1>We are Character!</h1>
-				<p>我们是一个要把想法变成现实的团队,这是一个合作开发和互相交流以及学习的平台，尽管现在我们只能停留于线上活动，而且人数很少，但是事在人为，事情只要去做，就会被改变。</p>
-			</div>
-			
-			<div id="image">
-				<h2>Ours memory</h2>
-				<sub>（点击头像可以进入个人空间）</sub><br>
-				
-				<a href="http://william-hunter.github.io/"><img src="PIC\lone.png" alt="董臣龙的头像" height="252" width="252"></a>
-				<a href="http://starrainfox.github.io/Myblog/"><img src="PIC\bobo.jpg" alt="董宁波的头像" height="252" width="252"></a>				
-				<a href="http://kjrim.github.io/MyBlog/"><img src="PIC\happy.jpg" alt="裴开心的头像" height="252" width="252"></a>
-				<a href="http://hanjunqiang.github.io/BLOG/"><img src="PIC\hanjunqiang.jpg" alt="韩军强的头像" height="252" width="252"></a>
-				<a href="http://ilikesummer.github.io/Blog/"><img src="PIC\wang.jpg" alt="王春节的头像" height="252" width="252"></a>
-				<a href="http://jiangqiangjq.github.io/Myblog/"><img src="PIC\jiang.jpg" alt="强B的头像" height="252" width="252"></a>
-			</div>
-		</div>		
-	</body>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>We are charactor</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      
+      <div class="container">
+           <h1>We are Character!</h1>
+		  <p>我们是一个要把想法变成现实的团队,这是一个合作开发和互相交流以及学习的平台，尽管现在我们只能停留于线上活动，而且人数很少，但是事在人为，事情只要去做，就会被改变。</p>
+        <p><small>点击图片进入个人简介</small></p>
+      <div id="myCarousel" class="carousel slide row">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+  </ol>
+  <!-- 旋转木马项目 -->
+  <div class="carousel-inner ">
+    <div class="active item"><a href="http://starrainfox.github.io/Myblog/"><img src="img/bobo.jpg" class="center-block"></a></div>
+    <div class="item"><a href="http://hanjunqiang.github.io/BLOG/"><img src="img/hanjunqiang.jpg" class="center-block"></a></div>
+    <div class="item"><a href="http://kjrim.github.io/MyBlog/"><img src="img/happy.jpg" class="center-block"></a></div>
+    <div class="item"><a href="http://jiangqiangjq.github.io/Myblog/"><img src="img/jiang.jpg" class="center-block"></a></div>
+    <div class="item"><a href="http://ilikesummer.github.io/Blog/"><img src="img/wang.jpg" class="center-block"></a></div>
+    <div class="item"><a href="http://william-hunter.github.io/"><img src="img/lone.png" class="center-block"></a></div>
+  </div>
+  <!-- 旋转木马导航 -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+     
+      
+      </div>
+      
+      
+      
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="js/jquery.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+    </body>
 </html>
